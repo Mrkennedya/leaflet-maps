@@ -1,0 +1,84 @@
+html {
+    font-size: 100%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+
+* {
+    box-sizing: inherit; /* keep */
+}
+
+body {
+    font-family: 'Bodoni MT', 'Georgia', serif;
+    background: #f4bc42; /* keep */
+    color: #333; /* keep */
+    margin: 0; /* keep */
+}
+
+p {
+  font-size: 1.3em;
+}
+
+h1 {
+  font-family: 'Roboto', 'Geneva', 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+#gamestopMap {
+  height: 500px;
+  width: 100%;
+  margin-top: 2em;
+  border: 1px solid #242222;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: auto;
+}
+
+.content {
+  padding: 0.5em;
+}
+
+@media screen and (max-width: 790px) {
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  #gamestopMap {
+    height: 450px;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .content {
+    margin: auto;
+    padding: 1em;
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+
+  p {
+    font-size: 1.2em;
+  }
+
+  h1 {
+    font-size: 1.35em;
+    padding: 0.5em;
+  }
+
+  #gamestopMap {
+    height: 350px;
+  }
+
+  .content {
+    padding: 1.5em;
+  }
+
+}
